@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="org.atchoo.bacommunity.AboutActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="Don't have enough community in your life? Get some insight from the king of community, Jono Bacon!\n\nAudio is taken from various &lt;a href=&quot;http://badvoltage.org/&quot;&gt;Bad Voltage&lt;/a&gt; episodes under the &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/2.0/&quot;&gt;Creative Commons Attribution Share-Alike&lt;/a&gt; license.\n\nBacommunity was made by Roger Light @ralight."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/about_text"
+            android:linksClickable="true" />
+    </LinearLayout>
+</RelativeLayout>
