@@ -9,7 +9,7 @@
     style="?attr/metaButtonBarButtonStyle"
     android:soundEffectsEnabled="false">
 
-    <me.ral.bacommunity.FixedAspectImageView
+    <org.atchoo.bacommunity.FixedAspectImageView
         android:id="@+id/bacon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

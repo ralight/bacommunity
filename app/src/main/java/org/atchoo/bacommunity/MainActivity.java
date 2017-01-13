@@ -18,6 +18,9 @@ import android.media.MediaPlayer;
 import android.media.AudioManager;
 
 import java.util.Random;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 import org.atchoo.bacommunity.R;
 
@@ -40,6 +43,8 @@ public class MainActivity extends AppCompatActivity {
 
     private static MediaPlayer mp = null;
     private static Random mRand;
+    private List<Integer> mClipList;
+    private int mClipPos;
     /**
      * Some older devices needs a small delay between UI widget updates
      * and a change of the status and navigation bar.
@@ -58,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
             {R.raw.community1, R.drawable.community1},
             {R.raw.art_of_community, R.drawable.art_of_community},
             {R.raw.community_bad_voltage, R.drawable.community_bad_voltage},
+            {R.raw.community_community, R.drawable.community_community},
             {R.raw.community_leadership_summit, R.drawable.community_leadership_summit},
             {R.raw.community_manager, R.drawable.community_manager},
             {R.raw.erm, R.drawable.erm},
@@ -153,7 +159,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        mRand = new Random();
+        mClipPos = 0;
+        mClipList = new ArrayList<Integer>();
+        for(int i=0; i<clips.length; i++){
+            mClipList.add(i);
+        }
+        Collections.shuffle(mClipList);
 
         setupAudio();
 
@@ -214,9 +225,17 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        int i = mRand.nextInt(clips.length);
+
+        int i = mClipList.get(mClipPos);
+
         mp = MediaPlayer.create(this, clips[i][0]);
         mBaconView.setBackgroundResource(clips[i][1]);
+
+        mClipPos++;
+        if(mClipPos == clips.length){
+            mClipPos = 0;
+            Collections.shuffle(mClipList);
+        }
 
         mp.setAudioStreamType(AudioManager.STREAM_MUSIC);
 

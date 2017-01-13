@@ -3,6 +3,9 @@
     package="org.atchoo.bacommunity"
     android:installLocation="preferExternal">
 
+    <!-- android:xlargeScreens="true" -->
+    <supports-screens android:largeScreens="true" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -20,7 +23,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AboutActivity"></activity>
+        <activity android:name=".AboutActivity" />
     </application>
 
 </manifest>
