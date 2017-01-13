@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
     private boolean mVisible;
     private AudioManager.OnAudioFocusChangeListener mOnAudioFocusChangeListener;
     private int mLastVolume;
+
     private final int clips[][] = {
             {R.raw.community1, R.drawable.community1},
             {R.raw.community1, R.drawable.community1},
@@ -142,12 +143,12 @@ public class MainActivity extends AppCompatActivity {
                     case AudioManager.AUDIOFOCUS_GAIN:
                     case AudioManager.AUDIOFOCUS_GAIN_TRANSIENT:
                     case AudioManager.AUDIOFOCUS_GAIN_TRANSIENT_MAY_DUCK:
-                        mLastVolume = am.getStreamVolume(AudioManager.STREAM_MUSIC);
                         am.setStreamVolume(AudioManager.STREAM_MUSIC, mLastVolume, 0);
                         break;
                     case AudioManager.AUDIOFOCUS_LOSS:
                     case AudioManager.AUDIOFOCUS_LOSS_TRANSIENT:
                     case AudioManager.AUDIOFOCUS_LOSS_TRANSIENT_CAN_DUCK:
+                        mLastVolume = am.getStreamVolume(AudioManager.STREAM_MUSIC);
                         am.setStreamVolume(AudioManager.STREAM_MUSIC, 0, 0);
                         break;
                 }
