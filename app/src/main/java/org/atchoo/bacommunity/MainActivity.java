@@ -255,7 +255,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void toggle_controls() {
+    private void toggle_controls() {
         if (mVisible) {
             hide();
         } else {
