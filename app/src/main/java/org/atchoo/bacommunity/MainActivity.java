@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
      */
     private static final int UI_ANIMATION_DELAY = 300;
     private final Handler mHideHandler = new Handler();
-    private View mBaconView;
+    private View mAnimView;
     private boolean mVisible;
     private AudioManager.OnAudioFocusChangeListener mOnAudioFocusChangeListener;
     private int mLastVolume;
@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
             // Note that some of these constants are new as of API 16 (Jelly Bean)
             // and API 19 (KitKat). It is safe to use them, as they are inlined
             // at compile-time and do nothing on earlier devices.
-            mBaconView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LOW_PROFILE
+            mAnimView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LOW_PROFILE
                     | View.SYSTEM_UI_FLAG_FULLSCREEN
                     | View.SYSTEM_UI_FLAG_LAYOUT_STABLE
                     | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
@@ -173,13 +173,13 @@ public class MainActivity extends AppCompatActivity {
 
         mVisible = true;
 
-        mBaconView = findViewById(R.id.bacon);
-        mBaconView.setBackgroundResource(R.drawable.jb1);
+        mAnimView = findViewById(R.id.bacon);
+        mAnimView.setBackgroundResource(R.drawable.jb1);
         View bgView = findViewById(R.id.frame_bg);
 
         // Set up the user interaction to manually show or hide the system UI.
 
-        mBaconView.setOnClickListener(new View.OnClickListener() {
+        mAnimView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 play_alert();
@@ -195,7 +195,7 @@ public class MainActivity extends AppCompatActivity {
         // Upon interacting with UI controls, delay any scheduled hide()
         // operations to prevent the jarring behavior of controls going away
         // while interacting with the UI.
-        mBaconView.setOnTouchListener(mDelayHideTouchListener);
+        mAnimView.setOnTouchListener(mDelayHideTouchListener);
         bgView.setOnTouchListener(mDelayHideTouchListener);
     }
 
@@ -230,7 +230,7 @@ public class MainActivity extends AppCompatActivity {
         int i = mClipList.get(mClipPos);
 
         mp = MediaPlayer.create(this, clips[i][0]);
-        mBaconView.setBackgroundResource(clips[i][1]);
+        mAnimView.setBackgroundResource(clips[i][1]);
 
         mClipPos++;
         if(mClipPos == clips.length){
@@ -242,14 +242,14 @@ public class MainActivity extends AppCompatActivity {
 
         mp.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
             public void onCompletion(MediaPlayer lmp) {
-                mBaconView.setBackgroundResource(R.drawable.jb1);
+                mAnimView.setBackgroundResource(R.drawable.jb1);
                 mp.release();
                 mp = null;
             }
         });
 
         AnimationDrawable baconAnim;
-        baconAnim = (AnimationDrawable) mBaconView.getBackground();
+        baconAnim = (AnimationDrawable) mAnimView.getBackground();
         baconAnim.start();
 
         mp.start();
@@ -282,7 +282,7 @@ public class MainActivity extends AppCompatActivity {
     @SuppressLint("InlinedApi")
     private void show() {
         // Show the system bar
-        mBaconView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+        mAnimView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
                 | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION | View.SYSTEM_UI_FLAG_LAYOUT_STABLE);
         mVisible = true;
 
@@ -328,7 +328,7 @@ public class MainActivity extends AppCompatActivity {
             mp.release();
             mp = null;
         }
-        mBaconView.setBackgroundResource(R.drawable.jb1);
+        mAnimView.setBackgroundResource(R.drawable.jb1);
     }
 
 

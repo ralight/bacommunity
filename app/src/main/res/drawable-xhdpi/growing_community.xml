@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+    <!-- community -->
+    <item android:drawable="@drawable/jb2" android:duration="50" />
+    <item android:drawable="@drawable/jb4" android:duration="60" />
+    <item android:drawable="@drawable/jb0" android:duration="80" />
+    <item android:drawable="@drawable/jb2" android:duration="140" />
+    <item android:drawable="@drawable/jb3" android:duration="40" />
+
+    <!-- dot -->
+    <item android:drawable="@drawable/jb2" android:duration="20" />
+    <item android:drawable="@drawable/jb4" android:duration="80" />
+    <item android:drawable="@drawable/jb2" android:duration="60" />
+
+    <!-- bad -->
+    <item android:drawable="@drawable/jb2" android:duration="50" />
+    <item android:drawable="@drawable/jb4" android:duration="80" />
+    <item android:drawable="@drawable/jb2" android:duration="50" />
+    <item android:drawable="@drawable/jb4" android:duration="80" />
+    <item android:drawable="@drawable/jb1" android:duration="10" />
+    <!-- voltage -->
+    <!-- dot -->
+    <item android:drawable="@drawable/jb2" android:duration="20" />
+    <item android:drawable="@drawable/jb4" android:duration="80" />
+    <item android:drawable="@drawable/jb1" android:duration="60" />
+
+    <!-- org -->
+    <!-- dot -->
+    <item android:drawable="@drawable/jb3" android:duration="310" />
+    <item android:drawable="@drawable/jbw" android:duration="20" />
+</animation-list>

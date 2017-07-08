@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+
+    <!-- 700 ms -->
+    <item android:drawable="@drawable/jb2" android:duration="20" /> <!-- C -->
+    <item android:drawable="@drawable/jb4" android:duration="30" /> <!-- o -->
+    <item android:drawable="@drawable/jb0" android:duration="50" /> <!-- m -->
+    <item android:drawable="@drawable/jb2" android:duration="130" /> <!-- uuu -->
+    <item android:drawable="@drawable/jb1" android:duration="60" /> <!-- n -->
+    <item android:drawable="@drawable/jb4" android:duration="60" /> <!-- i -->
+    <item android:drawable="@drawable/jb2" android:duration="40" /> <!-- t -->
+    <item android:drawable="@drawable/jb4" android:duration="155" /> <!-- eee -->
+    <item android:drawable="@drawable/jb1" android:duration="155" /> <!-- gap -->
+
+    <!-- 550 ms -->
+    <item android:drawable="@drawable/jb2" android:duration="20" /> <!-- C -->
+    <item android:drawable="@drawable/jb4" android:duration="30" /> <!-- o -->
+    <item android:drawable="@drawable/jb0" android:duration="50" /> <!-- m -->
+    <item android:drawable="@drawable/jb2" android:duration="110" /> <!-- uuu -->
+    <item android:drawable="@drawable/jb1" android:duration="50" /> <!-- n -->
+    <item android:drawable="@drawable/jb4" android:duration="50" /> <!-- i -->
+    <item android:drawable="@drawable/jb2" android:duration="40" /> <!-- t -->
+    <item android:drawable="@drawable/jb4" android:duration="150" /> <!-- eee -->
+    <item android:drawable="@drawable/jb1" android:duration="50" /> <!-- gap -->
+
+    <!-- 400 ms -->
+    <item android:drawable="@drawable/jb2" android:duration="14" /> <!-- C -->
+    <item android:drawable="@drawable/jb4" android:duration="22" /> <!-- o -->
+    <item android:drawable="@drawable/jb0" android:duration="36" /> <!-- m -->
+    <item android:drawable="@drawable/jb2" android:duration="79" /> <!-- uuu -->
+    <item android:drawable="@drawable/jb1" android:duration="36" /> <!-- n -->
+    <item android:drawable="@drawable/jb4" android:duration="36" /> <!-- i -->
+    <item android:drawable="@drawable/jb2" android:duration="29" /> <!-- t -->
+    <item android:drawable="@drawable/jb4" android:duration="108" /> <!-- eee -->
+    <item android:drawable="@drawable/jb1" android:duration="40" /> <!-- gap -->
+
+    <!-- 550 ms -->
+    <item android:drawable="@drawable/jb2" android:duration="20" /> <!-- C -->
+    <item android:drawable="@drawable/jb4" android:duration="30" /> <!-- o -->
+    <item android:drawable="@drawable/jb0" android:duration="50" /> <!-- m -->
+    <item android:drawable="@drawable/jb2" android:duration="110" /> <!-- uuu -->
+    <item android:drawable="@drawable/jb1" android:duration="50" /> <!-- n -->
+    <item android:drawable="@drawable/jb4" android:duration="50" /> <!-- i -->
+    <item android:drawable="@drawable/jb2" android:duration="40" /> <!-- t -->
+    <item android:drawable="@drawable/jb4" android:duration="150" /> <!-- eee -->
+    <item android:drawable="@drawable/jb1" android:duration="50" /> <!-- gap -->
+
+    <!-- 120 ms -->
+    <item android:drawable="@drawable/jb3" android:duration="30" /> <!-- aa -->
+    <item android:drawable="@drawable/jb4" android:duration="40" /> <!-- hh -->
+    <item android:drawable="@drawable/jb1" android:duration="50" /> <!-- gap -->
+
+    <!-- 520 ms -->
+    <item android:drawable="@drawable/jb2" android:duration="20" /> <!-- C -->
+    <item android:drawable="@drawable/jb4" android:duration="31" /> <!-- o -->
+    <item android:drawable="@drawable/jb0" android:duration="51" /> <!-- m -->
+    <item android:drawable="@drawable/jb2" android:duration="112" /> <!-- uuu -->
+    <item android:drawable="@drawable/jb1" android:duration="51" /> <!-- n -->
+    <item android:drawable="@drawable/jb4" android:duration="51" /> <!-- i -->
+    <item android:drawable="@drawable/jb2" android:duration="41" /> <!-- t -->
+    <item android:drawable="@drawable/jb4" android:duration="153" /> <!-- eee -->
+    <item android:drawable="@drawable/jb1" android:duration="10" /> <!-- gap -->
+
+    <!-- 140 ms -->
+    <item android:drawable="@drawable/jb3" android:duration="40" /> <!-- aa -->
+    <item android:drawable="@drawable/jb4" android:duration="60" /> <!-- hh -->
+    <item android:drawable="@drawable/jb1" android:duration="40" /> <!-- gap -->
+
+    <!-- 420 ms -->
+    <item android:drawable="@drawable/jb2" android:duration="15" /> <!-- C -->
+    <item android:drawable="@drawable/jb4" android:duration="22" /> <!-- o -->
+    <item android:drawable="@drawable/jb0" android:duration="37" /> <!-- m -->
+    <item android:drawable="@drawable/jb2" android:duration="81" /> <!-- uuu -->
+    <item android:drawable="@drawable/jb1" android:duration="37" /> <!-- n -->
+    <item android:drawable="@drawable/jb4" android:duration="37" /> <!-- i -->
+    <item android:drawable="@drawable/jb2" android:duration="30" /> <!-- t -->
+    <item android:drawable="@drawable/jb4" android:duration="111" /> <!-- eee -->
+    <item android:drawable="@drawable/jb1" android:duration="50" /> <!-- gap -->
+
+    <item android:drawable="@drawable/jb2" android:duration="40" /> <!-- c -->
+    <item android:drawable="@drawable/jb4" android:duration="50" /> <!-- a -->
+    <item android:drawable="@drawable/jb1" android:duration="56" /> <!-- gap -->
+
+    <item android:drawable="@drawable/jb2" android:duration="40" /> <!-- c -->
+    <item android:drawable="@drawable/jb4" android:duration="160" /> <!-- a -->
+    <item android:drawable="@drawable/jb1" android:duration="60" /> <!-- gap -->
+
+    <item android:drawable="@drawable/jb2" android:duration="40" /> <!-- c -->
+    <item android:drawable="@drawable/jb4" android:duration="200" /> <!-- a -->
+    <item android:drawable="@drawable/jb1" android:duration="45" /> <!-- gap -->
+
+    <item android:drawable="@drawable/jb2" android:duration="35" /> <!-- c -->
+    <item android:drawable="@drawable/jb4" android:duration="50" /> <!-- a -->
+    <item android:drawable="@drawable/jb1" android:duration="55" /> <!-- gap -->
+
+    <item android:drawable="@drawable/jb2" android:duration="30" /> <!-- c -->
+    <item android:drawable="@drawable/jb4" android:duration="170" /> <!-- a -->
+    <item android:drawable="@drawable/jb1" android:duration="60" /> <!-- gap -->
+
+    <item android:drawable="@drawable/jb2" android:duration="30" /> <!-- c -->
+    <item android:drawable="@drawable/jb4" android:duration="200" /> <!-- a -->
+    <item android:drawable="@drawable/jb1" android:duration="40" /> <!-- gap -->
+
+    <item android:drawable="@drawable/jb2" android:duration="30" /> <!-- c -->
+    <item android:drawable="@drawable/jb4" android:duration="35" /> <!-- a -->
+    <item android:drawable="@drawable/jb1" android:duration="70" /> <!-- gap -->
+
+    <item android:drawable="@drawable/jb2" android:duration="30" /> <!-- c -->
+    <item android:drawable="@drawable/jb4" android:duration="160" /> <!-- a -->
+    <item android:drawable="@drawable/jb1" android:duration="70" /> <!-- gap -->
+
+    <item android:drawable="@drawable/jb2" android:duration="35" /> <!-- c -->
+    <item android:drawable="@drawable/jb4" android:duration="170" /> <!-- a -->
+    <item android:drawable="@drawable/jb1" android:duration="70" /> <!-- gap -->
+
+    <item android:drawable="@drawable/jb2" android:duration="20" /> <!-- c -->
+    <item android:drawable="@drawable/jb4" android:duration="35" /> <!-- a -->
+    <item android:drawable="@drawable/jb1" android:duration="80" /> <!-- gap -->
+
+    <item android:drawable="@drawable/jb2" android:duration="25" /> <!-- c -->
+    <item android:drawable="@drawable/jb4" android:duration="160" /> <!-- a -->
+    <item android:drawable="@drawable/jb1" android:duration="90" /> <!-- gap -->
+
+    <item android:drawable="@drawable/jb2" android:duration="25" /> <!-- c -->
+    <item android:drawable="@drawable/jb4" android:duration="210" /> <!-- a -->
+    <item android:drawable="@drawable/jb1" android:duration="60" /> <!-- gap -->
+
+    <!--  ms -->
+    <item android:drawable="@drawable/jb2" android:duration="20" /> <!-- C -->
+    <item android:drawable="@drawable/jb4" android:duration="30" /> <!-- o -->
+    <item android:drawable="@drawable/jb0" android:duration="50" /> <!-- m -->
+    <item android:drawable="@drawable/jb2" android:duration="130" /> <!-- uuu -->
+    <item android:drawable="@drawable/jb1" android:duration="60" /> <!-- n -->
+    <item android:drawable="@drawable/jb4" android:duration="60" /> <!-- i -->
+    <item android:drawable="@drawable/jb2" android:duration="40" /> <!-- t -->
+    <item android:drawable="@drawable/jb4" android:duration="150" /> <!-- eee -->
+    <item android:drawable="@drawable/jb1" android:duration="55" /> <!-- gap -->
+
+    <!-- 495 ms -->
+    <item android:drawable="@drawable/jb2" android:duration="16" /> <!-- C -->
+    <item android:drawable="@drawable/jb4" android:duration="24" /> <!-- o -->
+    <item android:drawable="@drawable/jb0" android:duration="39" /> <!-- m -->
+    <item android:drawable="@drawable/jb2" android:duration="103" /> <!-- uuu -->
+    <item android:drawable="@drawable/jb1" android:duration="47" /> <!-- n -->
+    <item android:drawable="@drawable/jb4" android:duration="47" /> <!-- i -->
+    <item android:drawable="@drawable/jb2" android:duration="32" /> <!-- t -->
+    <item android:drawable="@drawable/jb4" android:duration="122" /> <!-- eee -->
+    <item android:drawable="@drawable/jb1" android:duration="65" /> <!-- gap -->
+
+    <item android:drawable="@drawable/jb2" android:duration="30" /> <!-- c -->
+    <item android:drawable="@drawable/jb4" android:duration="65" /> <!-- a -->
+    <item android:drawable="@drawable/jb1" android:duration="60" /> <!-- gap -->
+
+    <item android:drawable="@drawable/jb2" android:duration="25" /> <!-- c -->
+    <item android:drawable="@drawable/jb4" android:duration="200" /> <!-- a -->
+    <item android:drawable="@drawable/jb1" android:duration="80" /> <!-- gap -->
+
+    <item android:drawable="@drawable/jb2" android:duration="25" /> <!-- c -->
+    <item android:drawable="@drawable/jb4" android:duration="65" /> <!-- a -->
+    <item android:drawable="@drawable/jb1" android:duration="70" /> <!-- gap -->
+
+    <item android:drawable="@drawable/jb2" android:duration="25" /> <!-- c -->
+    <item android:drawable="@drawable/jb4" android:duration="210" /> <!-- a -->
+    <item android:drawable="@drawable/jb1" android:duration="60" /> <!-- gap -->
+
+    <!-- 533 ms -->
+    <item android:drawable="@drawable/jb2" android:duration="18" /> <!-- C -->
+    <item android:drawable="@drawable/jb4" android:duration="27" /> <!-- o -->
+    <item android:drawable="@drawable/jb0" android:duration="45" /> <!-- m -->
+    <item android:drawable="@drawable/jb2" android:duration="117" /> <!-- uuu -->
+    <item android:drawable="@drawable/jb1" android:duration="54" /> <!-- n -->
+    <item android:drawable="@drawable/jb4" android:duration="54" /> <!-- i -->
+    <item android:drawable="@drawable/jb2" android:duration="36" /> <!-- t -->
+    <item android:drawable="@drawable/jb4" android:duration="140" /> <!-- eee -->
+    <item android:drawable="@drawable/jb1" android:duration="42" /> <!-- gap -->
+
+    <!-- 455 ms -->
+    <item android:drawable="@drawable/jb2" android:duration="14" /> <!-- C -->
+    <item android:drawable="@drawable/jb4" android:duration="21" /> <!-- o -->
+    <item android:drawable="@drawable/jb0" android:duration="34" /> <!-- m -->
+    <item android:drawable="@drawable/jb2" android:duration="89" /> <!-- uuu -->
+    <item android:drawable="@drawable/jb1" android:duration="41" /> <!-- n -->
+    <item android:drawable="@drawable/jb4" android:duration="41" /> <!-- i -->
+    <item android:drawable="@drawable/jb2" android:duration="28" /> <!-- t -->
+    <item android:drawable="@drawable/jb4" android:duration="107" /> <!-- eee -->
+    <item android:drawable="@drawable/jb1" android:duration="80" /> <!-- gap -->
+
+    <!-- 650 ms -->
+    <item android:drawable="@drawable/jb2" android:duration="20" /> <!-- C -->
+    <item android:drawable="@drawable/jb4" android:duration="30" /> <!-- o -->
+    <item android:drawable="@drawable/jb0" android:duration="50" /> <!-- m -->
+    <item android:drawable="@drawable/jb2" android:duration="129" /> <!-- uuu -->
+    <item android:drawable="@drawable/jb1" android:duration="59" /> <!-- n -->
+    <item android:drawable="@drawable/jb4" android:duration="59" /> <!-- i -->
+    <item android:drawable="@drawable/jb2" android:duration="40" /> <!-- t -->
+    <item android:drawable="@drawable/jb4" android:duration="154" /> <!-- eee -->
+    <item android:drawable="@drawable/jb1" android:duration="110" /> <!-- gap -->
+
+</animation-list>
